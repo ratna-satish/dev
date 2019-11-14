@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "pivot",
+    "libraryId": "892e09ae-29e6-486e-b16f-0469724e07c6",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
