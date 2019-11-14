@@ -8,7 +8,7 @@ import {
 } from '@microsoft/sp-webpart-base';
 
 import * as strings from 'PivotWebPartStrings';
-import Pivot from './components/Pivot';
+import Pivot1 from './components/Pivot';
 import { IPivotProps } from './components/IPivotProps';
 
 export interface IPivotWebPartProps {
@@ -19,7 +19,7 @@ export default class PivotWebPart extends BaseClientSideWebPart<IPivotWebPartPro
 
   public render(): void {
     const element: React.ReactElement<IPivotProps > = React.createElement(
-      Pivot,
+      Pivot1,
       {
         description: this.properties.description
       }
